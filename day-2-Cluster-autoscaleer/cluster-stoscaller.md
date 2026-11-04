@@ -10,6 +10,8 @@ Apply the official Cluster Autoscaler manifest for your Kubernetes version (adju
 
 ```sh
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/autoscaler/cluster-autoscaler-1.29.0/cluster-autoscaler/cloudprovider/aws/examples/cluster-autoscaler-autodiscover.yaml
+(or)
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/autoscaler/cluster-autoscaler-1.34/cluster-autoscaler/cloudprovider/aws/examples/cluster-autoscaler-autodiscover.yaml
 2️⃣ Verify the Pod
 Check that the autoscaler pod is running in the kube-system namespace:
 
